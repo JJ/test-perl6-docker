@@ -51,11 +51,13 @@ install:
   - docker pull jjmerelo/test-perl6
 
 script: docker run -t -v  $TRAVIS_BUILD_DIR:/test jjmerelo/test-perl6
-	</code></pre>
+	  </code></pre>
+
+	  <aside class='notes'>Based on Alpine, pretty fast and light.</aside>
 	</section>
 
 	<section data-background='img/docker.png'></section>
-	      
+
 	<section data-background='https://farm3.staticflickr.com/2948/33373191263_9a320df034_k_d.jpg'>
 	  <h1>That's fast!</h1>
 
@@ -80,7 +82,7 @@ script:
 	<section><h1>Get test results while you wait!</h1>
 	  <h1 class='fragment'>Use Perl 6 docker containers</h1>
 	</section>
-	
+
       </div>
     </div>
 
